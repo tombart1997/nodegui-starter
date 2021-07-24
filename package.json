@@ -1,5 +1,5 @@
 {
-  "name": "nodegui-starter",
+  "name": "ImmoNodeGui",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Atul R <atulanand94@gmail.com>",
@@ -11,7 +11,11 @@
     "debug": "webpack && qode --inspect ./dist/index.js"
   },
   "dependencies": {
-    "@nodegui/nodegui": "^0.33.1"
+    "@nodegui/nodegui": "^0.33.1",
+    "puppeteer": "^5.3.1",
+    "puppeteer-core": "^10.1.0",
+    "filereader": "^0.10.3",
+    "fs": "0.0.1-security"
   },
   "devDependencies": {
     "@nodegui/packer": "^1.4.1",
